@@ -1,8 +1,13 @@
 import time
+import os
 
 start_time = time.time()
+dirpath = os.getcwd()
+file1 = f'{dirpath}/names/names_1.txt'
+file2 = f'{dirpath}/names/names_2.txt'
 
 f = open('names_1.txt', 'r')
+
 names_1 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
