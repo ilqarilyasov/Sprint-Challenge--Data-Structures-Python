@@ -28,6 +28,18 @@ duplicates = []
 #             duplicates.append(names_1[i])
 #         j += 2
 
+lenght_1 = len(names_1)
+lenght_2 = len(names_2)
+
+if lenght_1 > lenght_2:
+    for i in range(0, lenght_1):
+        pass
+elif lenght_1 == lenght_2:
+    for i in range(0, lenght_1):
+        pass
+elif lenght_1 < lenght_2:
+    for i in range(0, lenght_2):
+        pass
 
 
 end_time = time.time()
